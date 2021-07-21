@@ -1,0 +1,12 @@
+server:
+  port: 9002
+
+dubbo:
+  application:
+    name: order-service-consumer
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  protocol:
+    port: 20882
+    name: dubbo
